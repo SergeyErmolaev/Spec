@@ -1,0 +1,41 @@
+.container
+  .row.card-horizontal
+    include small-carousel.pug
+    .col.card-date-route
+      .card-sharing__block.card-sharing__block_square
+            a(href="#").sharing-link.sharing-link_plain-star.sharing-link_square
+            a(href="#").sharing-link.sharing-link_plain-share.sharing-link_square
+      .first-line.first-line_flex
+        .rent-card-horizontal
+          .rent-card__info
+            p.rent-card__info_declaration.typo-rent-card__info_declaration Аренда экскаватор-погрузчика 
+              span.rent-card__info_brand jcb 3cx super
+          .rating__block
+            .rent-card__rating(data-total-value="4")
+              .rating__item(data-item-value="5") &#9733;
+              .rating__item(data-item-value="4") &#9733;
+              .rating__item(data-item-value="3") &#9733;
+              .rating__item(data-item-value="2") &#9733;
+              .rating__item(data-item-value="1") &#9733;
+            span.rating__reviews 2 отзыва
+        .rent-card__price-select
+          .item-card__cost-information
+            .btn-group
+              button.btn.box-shadow_none.btn_padding-right-none.typo_dropdown-menu-rent(type="button") от 12 000 &#8381; / смена
+              button.btn.box-shadow_none.dropdown-toggle.dropdown-toggle__circle-arrow_padding-left.dropdown-toggle-split.sr-only_circle-arrow(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+                //- span.sr-only.sr-only_circle-arrow
+              .dropdown-menu.dropdown-menu_position-left
+                a.dropdown-item(href="/") от 1 500 &#8381; / час
+                a.dropdown-item(href="/") от 32 000 &#8381; / месяц
+            .isPayTax Работает с НДС
+      .second-line
+        .service-description.mb-2
+          p#pEllipsis Нами предлагается аренда экскаватора <span class="rent-card__info_brand"> jcb 3cx super</span> в Москве и Московской области. Мы поставляем спецтехнику с экипажем и без.
+      .third-line.third-line_feedback-place
+        .pin__block.padding-top-5
+            .pin__block_img
+              img(src="../../assets/img/sprites/Navigations/map-pin-red.png", alt="map-pin")
+            p.pin__block_text.typo_size-5 г. Москва, Семеновский переулок, 4
+        .feedback-buttons
+          button.btn.btn-white Написать
+          button.btn.btn-warning.btn-horizontal-card_show-phone Показать телефон

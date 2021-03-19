@@ -1,0 +1,42 @@
+.container.slider-container
+  .buttons__group.mb-4.pb-3
+    button(type="button" name="new_offers").btn.btn-lg.btn-warning.mr-3 Новые предложения
+    button(type="button" name="new_company").btn.btn-lg.btn-dark.mx-1 Новые компании
+    button(type="button" name="new_applications").btn.btn-lg.btn-dark.ml-3 Новые заявки
+  section.slider-blocks
+    <div id="carouselMainPageIndicatorsNewOffers" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators carousel-indicators_round">
+        <li data-target="#carouselMainPageIndicatorsNewOffers" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselMainPageIndicatorsNewOffers" data-slide-to="1"></li>
+        <li data-target="#carouselMainPageIndicatorsNewOffers" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          //- .d-block.w-100
+          //-   .imgBlock-red
+          //- <img src="../../../assets/img/technics/image_48.jpg" class="d-block w-100" alt="...">
+          include ./carousel-simple-items.pug
+        </div>
+        <div class="carousel-item">
+          //- .d-block.w-100
+          //-   .imgBlock-green
+          //- <img src="../../../assets/img/technics/image_49.jpg" class="d-block w-100" alt="...">
+          include ./carousel-simple-items.pug
+        </div>
+        <div class="carousel-item">
+          //- .d-block.w-100
+          //-   .imgBlock-yellow
+          //- <img src="../../../assets/img/technics/image_61.jpg" class="d-block w-100" alt="...">
+          //- .d-block.w-100
+          include ./carousel-simple-items.pug
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselMainPageIndicatorsNewOffers" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselMainPageIndicatorsNewOffers" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>

@@ -1,0 +1,29 @@
+header.header#header
+  .container
+    .header__inner.row
+      .header__logo.col-auto
+        a(href="/")
+          img.header__logo(src="../../assets/img/logo/Spec-logo.svg" alt="logo")
+      .header__navigation.col-auto
+        ul.navigation__list.typo_size-5_1
+          li.navigation__list_item
+            a.navigation__link Товары и услуги
+          li.navigation__list_item
+            a.navigation__link Работа
+          li.navigation__list_item
+            a.navigation__link Компании
+          li.navigation__list_item
+            a.navigation__link Техподдержка
+      .header__interaction.col.typo_size-5_1
+        .search
+          a.search__link(href="/")
+            img.search__link_gold(src="../../assets/img/sprites/Navigations/Ellipse.png" alt="search")
+        .entrance
+          a(href="/").entrance__link#entranceLink
+            img.entrance__link_gold(src="../../assets/img/sprites/Accounts/user.png")
+            span.entrance__link_declaration#entranceLinkDeclaration Войти
+        .placeAnAdd
+          button.btn.btn-warning.placeAnAdd__button
+            img.placeAnAdd__button_plus(src="../../assets/img/sprites/popular/plus.png")
+            span.placeAnAdd__button_declaration.typo_size-5 Добавить объявление
+

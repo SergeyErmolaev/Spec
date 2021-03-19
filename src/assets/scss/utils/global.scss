@@ -1,0 +1,101 @@
+/* Vars:
+   ========================================================================== */
+
+// Font
+$mainFont                : 'Play', 'Roboto', sans-serif;
+// $cursiveFont             : 'Dancing Script', cursive;
+
+$text-size-xxs: 12px;
+$text-size-xs: 14px;
+$text-size-mxs: 15px;
+$text-size-16: 16px;
+$text-size-sm: 18px;
+$text-size-md: 20px;
+$text-size-lg: 22px;
+$text-size-xl: 24px;
+$text-size-xxl: 36px;
+
+$text-height-xxxs: 13px;
+$text-height-xxxms: 14px;
+$text-height-xxs: 16px;
+$text-height-mxs: 17px;
+$text-height-xs: 19px;
+$text-height-sm: 21px;
+$text-height-23: 23px;
+$text-height-md: 24px;
+$text-height-lg: 28px;
+$text-height-xl: 58px;
+$text-height-xxl: 42px;
+
+// Size
+$mainFontColor           : #101010;
+$mainFontSize            : 19px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.4;
+
+$desktopWidth            : 1280px;
+$smDesktopWidth          : 1024px;
+$tableWidth              : 768px;
+$smTableWidth            : 640px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+/*
+ All colors taken from:
+ https://github.com/vedees/uimini
+*/
+
+// Main color
+// $default-color           : #ffffff;
+// $primary-color           : #444ce0;
+// $success-color           : #6fcf97;
+// $danger-color            : #fc5c65;
+// $warning-color           : #fed330;
+// $light-color             : #999999;
+$purple1                 : #9B51E0;
+$gray-090                : #f0f0f0;
+
+// Darck-color kit
+$DrSh                    : #1f2041;
+$DrSh75                  : rgba(31, 32, 65, 0.75);
+$DrSh50                  : rgba(31, 32, 65, 0.5);
+$DrSh25                  : rgba(31, 32, 65, 0.25);
+$DrSh5                   : rgba(31, 32, 65, 0.05);
+
+// Neutral Color
+$neutral-primary         : #303133;
+$neutral-regular         : #606266;
+$neutral-secondary       : #828282;
+$neutral-placeholder     : #C0C4CC;
+
+// Border Color
+$border-base             : #DCDFE6;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
+
+// Margins and Buttons
+$gutter-xs: 4px;
+$gutter-sm: 8px;
+$gutter-lsm: 10px;
+$gutter-md: 13px;
+$gutter-11: 11px;
+$gutter-lg: 20px;
+$gutter-55: 55px;
+
+
+html {
+  // line-height: $mainLineHeight;
+  // font-size: $mainFontSize;
+  // color: $mainFontColor;
+  height: 100%;
+
+}
+
+body {
+  font-family: $mainFont;
+  // font-size: rem(19);
+  // font-weight: $mainFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,36 @@
+.colors-type {
+  margin-bottom: 177px;
+}
+
+.colors-type__color {
+  height: 133px;
+  width: 133px;
+  margin-right: 42px;
+}
+
+.colors-type__color_yellow {
+  background: $yellow;
+}
+
+.colors-type__color_black {
+  background: $black;
+}
+
+.color-type__color_grey {
+  background: $gray-090;
+}
+
+.color-type__color_white{
+  background: $white;
+  box-shadow: 0px 12px 23px 0px $gray-200;
+}
+
+.color-type__color_red {
+  background: $red;
+}
+
+
+
+.color-type__color_blue {
+  background: $blue;
+}

@@ -1,0 +1,19 @@
+.container.container_absolute
+  .row
+    form(action="", method="get").form-search.form-hero-first.form-hero-first_bc-white.form-hero-first_shadow
+      .technics__search#technicsSearch.technics__search_three-four-border.technics__search_flex-grow-2
+        input.technics__search_input.technics__search_three-four-border#techSearchInput(type="search" placeholder="Поиск спецтехники")
+      .select.select__padding-left#select.border-top-bottom
+        .select__header#select__header.select__header_border-left-side
+          .select__current#select__current Выбрать категорию
+          .select__icon.select__icon_arrow
+        .select__body
+          .select__items_container
+            .select__item#select__item Аренда автокрана
+            .select__item#select__item Аренда манипулятора
+          .select__items_container
+            .select__item#select__item Аренда мини-техники
+            .select__item#select__item Аренда прочей техники
+          .select__items_container
+            .select__item#select__item Аренда экскаваторов
+      button.btn.btn-warning.btn-search.btn-shadow-warning(type="submit") Найти

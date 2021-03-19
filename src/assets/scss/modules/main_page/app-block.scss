@@ -1,0 +1,28 @@
+.app-block {
+  background-color: $warning;
+  padding-bottom: 110px;
+}
+
+.container-relative {
+  position: relative;
+}
+
+.app-block__text {
+  width: 420px;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.app-block__header {
+  font-weight: bold;
+}
+
+.app-block__para {
+  font-size: 1.5rem;
+}
+
+.app-block__banner {
+  position: absolute;
+  right: -130px;
+  top: -101px;
+}

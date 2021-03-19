@@ -1,0 +1,193 @@
+.card-product {
+  position: relative;
+  width: 355px;
+  border: 1px solid #BDBDBD;
+  border-radius: $border-radius;
+}
+
+.card-sharing__block {
+  position: absolute;
+  z-index: 1;
+}
+
+.card-sharing__block_circle {
+  top: 15px;
+  right: 18px;
+  width: 32px;
+}
+
+.sharing-link {
+  display: inline-block;
+  border: 1px solid transparent;
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: $white;
+}
+
+.sharing-link_circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.sharing-link_plain-star {
+  background-image: url(../../assets/img/sharing/star-white.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.sharing-link_plain-star:hover {
+  background-image: url(../../assets/img/sharing/star-white.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: $black;
+}
+
+.sharing-link_plain-star:active {
+  background-image: url(../../assets/img/sharing/star-gold.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: $white;
+}
+
+.sharing-link_hover-star {
+  background-image: url(../../assets/img/sharing/star-white.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: $black;
+}
+
+.sharing-link_active-star {
+  background-image: url(../../assets/img/sharing/star-gold.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.sharing-link_plain-share {
+  background-image: url(../../assets/img/sharing/share-black.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.sharing-link_plain-share:hover {
+  background-image: url(../../assets/img/sharing/share-white.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: $black;
+}
+
+.sharing-link_hover-share {
+  background-image: url(../../assets/img/sharing/share-white.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: $black;
+}
+
+.card-product__container {
+  width: 324px;
+  margin-top: 11px;
+}
+
+.rent-card__info_margin-bottom {
+  margin-bottom: 3px;
+}
+
+.carousel-inner_height{
+  height: 198px;
+}
+
+.carousel-indicators {
+  .carousel-indicator_mobile {
+    width: 65px;
+    margin: 0 6px 0 6px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+  }
+}
+
+
+
+@import "rating";
+
+.rent-card__info_brand {
+  text-transform: uppercase;
+}
+
+.rent-card__price {
+  display: flex;
+}
+
+.rent-card__price-and-seat {
+  margin-bottom: 20px;
+}
+
+.rent-card__price_pin {
+  width: 24px;
+  height: 24px;
+}
+
+.price-description__block {
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.price-description__block_price {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.price-description__block_tax {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.rent-card__seat_link {
+  min-height: 32px;
+  cursor: pointer;
+}
+
+.img-map-pin {
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+}
+
+.seat-description__block {
+  display: inline-block;
+  width: 182px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 5px;
+  color: $black;
+}
+
+.show-phone__btn {
+  width: 100%;
+  min-height: 40px;
+  background-color: $yellow;
+  margin-bottom: 20px;
+}
+
+// service button
+
+.card-product__service-text {
+  margin-bottom: 14px;
+}
+
+
+// city list
+
+.city-list__btn-search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city__list_item {
+  margin-bottom: 15px;
+}
+
+.btn-search {
+  width: 230px;
+  height: 50px;
+  line-height: 36px;
+}

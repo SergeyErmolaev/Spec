@@ -1,0 +1,32 @@
+@import "utils/libs";
+@import "utils/global.scss";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "utils/reset";
+
+// Modules:
+// example: @import "modules/my-module.scss";
+
+// @import 'modules/UIKIT/wrapper_kit';
+@import "modules/typo";
+@import "modules/main_page/buttons.scss";
+@import "modules/position-flex";
+@import "modules/UIKIT/palette";
+@import "modules/UIKIT/sprites/sprites";
+@import 'modules/header/header_kit';
+@import "modules/UIKIT/hovers";
+@import "modules/footer";
+@import "modules/big-logo";
+@import "modules/place_phone";
+@import "modules/mobile-cards";
+@import "modules/rating-input";
+@import "modules/select-spec-tech-search";
+@import "modules/select-place-search";
+@import "modules/cards";
+@import "modules/card-date";
+@import "modules/card-rent";
+@import "modules/small-carousel";
+@import "modules/card-firm";
+@import "modules/pin-blok";
+@import "modules/pagination";
+@import "modules/main_page/MAIN_PAGE"

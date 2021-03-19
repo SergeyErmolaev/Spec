@@ -1,0 +1,85 @@
+.header {
+  background-color: $black;
+  min-height: 70px;
+  // margin-bottom: 40px;
+}
+
+.header__inner {
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__list_item {
+  margin-right: 35px;
+}
+
+.navigation__link{
+  color: $white;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.navigation__link:hover {
+  text-decoration: none;
+  color: $yellow;
+  border-bottom: 3px solid $yellow;
+}
+
+.header__interaction {
+  display: flex;
+  justify-content: flex-end;
+  
+  align-items: center;
+}
+
+.search__link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.search__link_gold{
+  padding: 4px;
+}
+
+.entrance {
+  margin-left: 30px;
+  margin-right: 24px;
+}
+
+.entrance__link {
+  color: $white;
+  cursor: pointer;
+}
+
+.entrance__link:hover {
+  text-decoration: none;
+  color: $yellow;
+}
+
+.entrance__link_declaration {
+  margin-left: 8px;
+}
+
+.placeAnAdd__button {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.placeAnAdd__button_plus {
+  width: 14px;
+  height: 14px;
+  margin: 6px 9px 6px 6px;
+
+}
+
+.placeAnAdd__button_declaration {
+  margin-left: 5px;
+  padding-right: 5px;
+}

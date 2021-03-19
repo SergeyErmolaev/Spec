@@ -1,0 +1,40 @@
+// star-rating
+
+.main-rating-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 50px;
+}
+
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+
+  input {
+    display: none;
+
+    &:checked~label {
+      color: #fde600;
+    }
+  }
+
+  .star {
+    display: block;
+    padding: 2px;
+    cursor: pointer;
+    transition: color .2s ease;
+
+    &:hover {
+      color: #eed805
+    }
+
+    &:hover~label {
+      color: #eed805;
+    }
+  }
+}

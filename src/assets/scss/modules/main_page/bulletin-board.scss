@@ -1,0 +1,59 @@
+.bulletin-board {
+  padding-top: 119px;
+  padding-bottom: 90px;
+}
+
+.bulletin-board__header {
+  font-size: 26px;
+  line-height: 1.875rem;
+  font-weight: bold;
+  padding: 0px 215px 45px;
+  text-align: center;
+}
+
+.bulletin-board__card {
+  text-align: center;
+  &:hover{
+    border: 1px solid $black;
+    border-radius: $border-radius;
+  }
+}
+
+.bulletin-board__col {
+  padding-bottom: 20px;
+}
+
+.bulletin-board__col:nth-child(2),
+.bulletin-board__col:nth-child(5) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card__link {
+  color: inherit;
+}
+
+.card__link:hover {
+  text-decoration: none;
+  color: $white;
+  background-color: $black;
+}
+
+.card__img {
+  width: auto;
+}
+
+.card-body_one-line-top-bottom-padding {
+  padding-top: 16px;
+  padding-bottom: 60px;
+}
+
+.card-body_two-line-top-bottom-padding {
+  padding-top: 4px;
+  padding-bottom: 48px;
+}
+
+.card__text {
+  font-size: 20px;
+
+}

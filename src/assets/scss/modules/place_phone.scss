@@ -1,0 +1,44 @@
+.place-and-phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.place {
+  color: $white;
+  background-color: $gray-090;
+}
+
+.map-pin-gold {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  // background-image: url(../../assets/img/sprites/Navigations/map-pin-gold.png) 50% 50% no-repeat;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.button-phone-gold-block__btn {
+  width: 230px;
+  height: 40px;
+  color: $yellow;
+  background-color: $black;
+  border: 2px solid $yellow;
+  // margin-bottom: 0;
+}
+
+.user_ellipse {
+  width: 40px;
+  height: 40px;
+  font-family: $mainFont;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: $purple1;
+  color: $white;
+}

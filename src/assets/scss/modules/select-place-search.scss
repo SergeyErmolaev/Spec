@@ -1,0 +1,24 @@
+.select_relative {
+  position: relative;
+}
+
+.select__block.is-active .select__body_place {
+  display: block;
+}
+
+.select__body_place {
+  display: none;
+  left: 0px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: $white;
+  padding-left: 23px;
+  z-index: 1;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.select__item_black {
+  color: $black;
+}

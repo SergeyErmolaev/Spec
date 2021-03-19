@@ -1,0 +1,65 @@
+.first-line_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rent-card-horizontal {
+  width: 461px;
+  // margin-right: 50px;
+}
+
+.service-description {
+  width: 493px;
+}
+
+.select__icon_round-arrow {
+  background-image: url(../../assets/img/sprites/arrows/arrow_circle_drop_down_24px.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.isPayTax {
+  padding-left: 13px;
+  font-size: $font-size-sm;
+}
+
+.rent-card__price-select {
+  margin-right: 106px;
+}
+
+.sr-only_circle-arrow:after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url(../../assets/img/sprites/arrows/arrow_circle_drop_down_24px.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: none;
+}
+
+.typo_dropdown-menu-rent {
+  padding-right: 4px;
+  padding-top: 0px;
+}
+
+
+.dropdown-toggle__circle-arrow_padding-left {
+  padding-left: 3px;
+  padding-top: 0px;
+}
+
+.dropdown-menu_position-left.show {
+  left: -150px !important;
+}
+
+.box-shadow_none:focus {
+  box-shadow: none;
+}
+
+.third-line_feedback-place {
+  justify-content: space-between;
+}
+
+.bottom-gutter-11 {
+  margin-bottom: $gutter-11;
+}

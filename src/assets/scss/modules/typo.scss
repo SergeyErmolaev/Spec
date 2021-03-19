@@ -1,0 +1,135 @@
+body {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+.typo {
+  margin: 0;
+}
+
+.typo_size-1 {
+  margin-bottom: $gutter-lg;
+  font-size: $text-size-xxl;
+  font-weight: 400;
+  line-height: $text-height-xxl;
+}
+
+.typo_size-1_1 {
+  margin-bottom: $gutter-lsm;
+  font-size: $text-size-xl;
+  font-weight: 400;
+  line-height: $text-height-lg;
+}
+
+.typo_bold_size-1_1 {
+  margin-bottom: $gutter-lsm;
+  font-size: $text-size-xl;
+  font-weight: bold;
+  line-height: $text-height-lg;
+}
+
+.typo_size-2 {
+  margin-bottom: $gutter-md;
+  font-size: $text-size-lg;
+  font-weight: 400;
+  line-height: $text-height-lg;
+}
+
+.typo_bold_size-2 {
+  margin-bottom: $gutter-md;
+  font-size: $text-size-lg;
+  font-weight: bold;
+  line-height: $text-height-lg;
+}
+
+.typo_size-3 {
+  margin-bottom: $gutter-xs;
+  font-size: $text-size-md;
+  font-weight: 400;
+  line-height: $text-height-md;
+}
+
+.typo_size-4 {
+  margin-bottom: $gutter-xs;
+  font-size: $text-size-sm;
+  font-weight: 400;
+  line-height: $text-height-sm;
+}
+
+.typo_size-4_1 {
+  margin-bottom: $gutter-lsm;
+  font-size: $text-size-16;
+  font-weight: 400;
+  line-height: $text-height-xs;
+}
+
+.typo_bold_size-4_1 {
+  margin-bottom: $gutter-lsm;
+  font-size: $text-size-16;
+  font-weight: bold;
+  line-height: $text-height-xs;
+}
+
+.typo_size-5 {
+  margin-bottom: $gutter-xs;
+  font-size: $text-size-xs;
+  font-weight: 400;
+  line-height: $text-height-xxs;
+}
+
+.typo_size-5_1 {
+  font-size: $text-size-mxs;
+  font-weight: 400;
+  line-height: $text-height-mxs;
+}
+
+.typo_size-5_2 {
+  margin-bottom: $gutter-lsm;
+  font-size: $text-size-xxs;
+  font-weight: 400;
+  line-height: $text-height-xxxms;
+}
+
+.typo_size-6 {
+  margin-bottom: $gutter-xs;
+  font-size: $text-size-xxs;
+  font-weight: 400;
+  line-height: $text-height-xxxs;
+}
+
+.typo_dropdown-menu-rent {
+  font-weight: $font-weight-bold;
+  font-size: $h5-font-size;
+  line-height: $headings-line-height;
+}
+
+.typo-rent-card__info_declaration {
+  font-weight: $font-weight-bold;
+  color: $blue;
+}
+
+.font-w {
+  font-weight: $font-weight-bold;
+  font-size: $h5-font-size;
+  line-height: $headings-line-height;
+}
+
+.typo_color-main {
+  color: $black;
+}
+
+// .typo_color-secondary {
+//   color: $color-text-secondary;
+// }
+
+// .typo_color-contrast {
+//   color: $color-text-contrast;
+// }
+
+// .typo_color-accent {
+//   color: $color-text-accent;
+// }
+
+.typo_color-purple {
+  color: $purple;
+}

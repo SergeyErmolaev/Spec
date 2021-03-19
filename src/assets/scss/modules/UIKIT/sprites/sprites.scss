@@ -1,0 +1,126 @@
+.sprite-container {
+  h1 {
+    max-width: 300px;
+    margin: 0 auto 20px;
+    border-left: 4px solid $purple;
+    padding-left: $gutter-md;
+    // color: $purple;
+  }
+}
+
+.sprite-col {
+  display: flex;
+  justify-content: center;
+}
+
+.sprite-box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 316px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 0;
+  margin-bottom: 120px;
+}
+
+.sprite-box__element {
+  height: 28px;
+  width: 28px;
+  margin: 5px 8px;
+  // background: red;
+}
+
+.sprites-main {
+  padding-top: 196px;
+}
+
+.sprites-link {
+  color: $gray-500;
+}
+
+.logo-sprites-container {
+  position: fixed;
+  background: $white;
+  z-index: 10;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "sprites-icons sprites-logo"
+                        "sprites-header sprites-logo"
+                        "sprites-link sprites-logo";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  // margin-bottom: 76px;
+  padding-left: 28px;
+  box-shadow: 0px 12px 23px rgba(0,0,0,0.06);
+}
+
+.sprites-header {
+  grid-area: sprites-header;
+}
+
+.sprites-icons{
+  grid-area: sprites-icons;
+  padding-top: 20px;
+}
+
+.sprites-link {
+  grid-area: sprites-link;
+}
+
+.sprites-logo {
+  grid-area: sprites-logo;
+  justify-self: flex-end;
+}
+
+// Elements
+
+// POPULAR
+@import "./popular/popular";
+
+//MESSAGING
+@import "./messaging/messaging";
+
+//ARROWS
+@import "./arrows/arrows";
+
+// NOTIFICATION
+@import "./notification/notification";
+
+// CHEVRONS
+@import "./chevrons/chevrons";
+
+// SOCIAL
+@import "./social/socials";
+
+// ACCOUNTS
+@import "./accounts/accounts";
+
+// BUSINESS
+@import "./business/business";
+
+// SOUNDS
+@import "./sounds/sounds";
+
+// MISC
+@import "./misc/misc";
+
+// TEXT
+@import "./text/text";
+
+// DEVICES
+@import "./devices/devices";
+
+// NAVIGATION
+@import "./navigation/navigation";
+
+// FILES
+@import "./files/files";
+
+//VIEW
+@import "./view/view";
+
+// FINANCE
+@import "./finance/finance";
+
+// FASHION
+@import "./fashion/fashion";

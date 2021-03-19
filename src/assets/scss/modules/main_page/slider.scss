@@ -1,0 +1,75 @@
+.slider-container {
+  padding-bottom: 204px;
+}
+
+.buttons__group {
+  text-align: center;
+}
+
+.container-cards-carousel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-control-next {
+  right: -73px;
+  // width: 73px;
+  justify-content: flex-end;
+}
+
+.carousel-control-prev {
+  left: -73px;
+  // width: 73px;
+  justify-content: flex-start;
+}
+
+.carousel-control-next-icon, .slick-next {
+  width: 23px;
+  height: 16px;
+  background-image: url(../../assets/img/main_page/arrow.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon, .slick-prev {
+  width: 23px;
+  height: 16px;
+  background-image: url(../../assets/img/main_page/arrow-left.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.slick-slide img {
+  display: inline-block;
+}
+
+.imgBlock-red {
+  width: 1110px;
+  height: 460px;
+  background-color: red;
+}
+
+.imgBlock-green {
+  width: 1110px;
+  height: 460px;
+  background-color: green;
+}
+
+.imgBlock-yellow {
+  width: 1110px;
+  height: 460px;
+  background-color: yellow;
+}
+
+.carousel-indicators_round {
+  bottom: -40px;
+  li {
+    width: 14px;
+    height: 14px;
+    background-color: #F0F0F0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+  }
+}

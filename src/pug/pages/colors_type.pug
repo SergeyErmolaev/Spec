@@ -1,0 +1,98 @@
+//- extends ../layout/UIkit
+
+block variables
+  -var title = 'Colors&Hover'
+
+block content
+  .container
+    h1.typo_size-2.row Цвет
+    ul.colors-type.row
+      li.colors-type__color.colors-type__color_yellow
+      li.colors-type__color.colors-type__color_black
+      li.colors-type__color.color-type__color_grey
+      li.colors-type__color.color-type__color_white
+      li.colors-type__color.color-type__color_red
+      li.colors-type__color.color-type__color_blue
+    h1.typo_size-2.row Hover
+    .hover-elements.row
+      .col-lg-2
+        .line-1
+          a(href="#").sharing-link.sharing-link_plain-star
+          a(href="#").sharing-link.sharing-link_hover-star
+          a(href="#").sharing-link.sharing-link_active-star
+        .line-1
+          a(href="#").sharing-link.sharing-link_plain-share
+          a(href="#").sharing-link.sharing-link_hover-share
+          a(href="/").sharing-link.sharing-link_active-share
+        .line-1
+      .col-lg-6
+        .line-1
+          button(type="button").big-button.button-danger.button_radius Найти
+          button(type="button").big-button.button-danger_hover-pale.button_radius Найти
+        .line-1
+          button(type="button").big-button.button_dark.button_radius Новые компании
+          button(type="button").big-button.button_hover-danger.button_radius Новые компании
+        .line-1
+          button(type="button").sm-button.button_white.button_radius Написать
+          button(type="button").sm-button.button_dark.button_radius Написать
+      .col-lg-4
+        .line-1
+          button(type="button").button-map.button_radius.button-map_plain
+            <img class="img-map-pin" src="../../assets/img/sprites/Navigations/map-pin-red.png" alt="map-pin">
+            span#map-pin-span Смотреть на карте
+          button(type="button").button-map.button_radius.button-map_hover
+            <img class="img-map-pin" src="../../assets/img/sprites/Navigations/map-pin-red.png" alt="map-pin">
+            span#map-pin-span Смотреть на карте
+        .line-1
+          button(type="button").md-button.button_radius Предыдущая
+          button(type="button").md-button.button_radius.md-button_hover Предыдущая
+        .line-1
+    .hover-cards.row
+      .col-lg-5
+        .hover-card-wrapper
+          .card-plain
+            .sort-card-close.sprite-box__element_x
+            ul.card-list
+              li.card-list-item По актуальности
+              li.card-list-item По дате размещения
+              li.card-list-item По возрастанию цены
+              li.card-list-item По убыванию цены
+              li.card-list-item По году: новее
+              li.card-list-item По году: старше
+              li.card-list-item По названию
+          .card-hover
+            .sort-card-close.sprite-box__element_x
+            ul.card-list
+              li.card-list-item По актуальности
+              li.card-list-item По дате размещения
+              li.card-list-item По возрастанию цены
+              li.card-list-item По убыванию цены
+              li.card-list-item По году: новее
+              li.card-list-item По году: старше
+              li.card-list-item По названию
+    .rent-cards.row
+      include ../includes/modules/cards/small-carousel.pug
+      .item-card__description-block.col-auto
+        h4 Аренда экскаватор-погрузчика <span>jcb 3cx super<span>
+        .raiting 2 отзыва
+        p Нами предлагается аренда экскаватора <span>jcb 3cx super</span> в Москве и Московской области. Мы поставляем спецтехнику с экипажем...
+        .go-to-map
+          a(href="#")
+            <img class="img-map-pin" src="../../assets/img/sprites/Navigations/map-pin-red.png" alt="map-pin">
+            span#map-pin-span г. Москва, Семеновский переулок, 4
+      .item-card__cost-information-replay.col-auto
+        .item-card__cost-information
+          .btn-group
+            button.btn.box-shadow_none.btn_padding-right-none.typo_dropdown-menu-rent(type="button") от 12 000 &#8381; / смена
+            button.btn.box-shadow_none.dropdown-toggle.dropdown-toggle__circle-arrow_padding-left.dropdown-toggle-split.sr-only_circle-arrow(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+              //- span.sr-only.sr-only_circle-arrow
+            .dropdown-menu
+              a.dropdown-item(href="/") от 1 500 &#8381; / час
+              a.dropdown-item(href="/") от 32 000 &#8381; / месяц
+          .isPayTax Работает с НДС
+        a(href="#").sharing-link.sharing-link_plain-star
+        a(href="#").sharing-link.sharing-link_plain-share
+        .bth-block
+          button(type="button").btn.button_white Написать
+          button(type="button").btn.btn-warning Показать телефон
+    

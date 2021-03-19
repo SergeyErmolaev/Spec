@@ -1,0 +1,21 @@
+.btn-middle {
+  height: 40px;
+  padding:  $btn-padding-y-sm $btn-padding-x-lg;
+}
+
+.btn-middle-white{
+  background-color: $white;
+  border-color: $black;
+  &:hover{
+    background-color: $black;
+    color: $white;
+  }
+}
+
+.btn-lg {
+  height: 50px;
+  min-width: 194px;
+  font-size: 1.125rem;
+  // line-height: ;
+  padding: 0.718rem 1.125rem;
+}

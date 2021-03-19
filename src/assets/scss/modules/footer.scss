@@ -1,0 +1,56 @@
+// footer style
+.footer {
+  background-color: $black;
+  color: $white;
+}
+
+.footer__logo {
+  margin-top: 36px;
+  width: 200px;
+}
+
+.footer-replay__contact-phone {
+  margin-top: $gutter-lg;
+  margin-bottom: 55px;
+}
+
+.footer-replay__apps {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  margin-bottom: 52px;
+}
+
+.footer-replay__right-info {
+  margin-bottom: 44px;
+}
+
+// INFO
+
+.footer__info-block {
+  margin-top: 103px;
+}
+
+.footer__info-list {
+  margin-top: $gutter-lg;
+}
+
+// SOCIAL
+
+.footer__social-block {
+  margin-top: 103px;
+  margin-bottom: 51px;
+  max-width: 198px;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $gutter-lg;
+}
+
+a.social-list__link {
+  font-size: 0;
+  color: transparent;
+  cursor: pointer;
+}

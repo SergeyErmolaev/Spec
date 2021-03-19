@@ -1,0 +1,33 @@
+.container
+  .row
+    form(action="" method="get").form-search.form-technics-search
+      .technics__search#technicsSearch
+        input.technics__search_input#techSearchInput(type="search" placeholder="Поиск спецтехники")
+      .select#select.select_grow_2
+        .select__header#select__header.select__header_border-left-side.select__header_padding-right-none
+          .select__current#select__current Выбрать категорию
+          .select__icon.select__icon_arrow
+        .select__body
+          .select__items_container
+            .select__item#select__item Аренда автокрана
+            .select__item#select__item Аренда манипулятора
+          .select__items_container
+            .select__item#select__item Аренда мини-техники
+            .select__item#select__item Аренда прочей техники
+          .select__items_container
+            .select__item#select__item Аренда экскаваторов
+      .select.select_relative.select__block#select.select_grow_3
+        .select__header#select__header.select__header_margin-left
+          .select__current#select__current.select__current_place Москва и Московская обл.
+          .select__icon.select__icon_arrow
+        .select__body_place
+          .select__item.select__item_black#select__item Москва
+          .select__item.select__item_black#select__item Балашиха
+          .select__item.select__item_black#select__item Лобня
+          .select__item.select__item_black#select__item Звенигород
+          .select__item.select__item_black#select__item Видное
+          .select__item.select__item_black#select__item Подольск
+          .select__item.select__item_black#select__item Балашиха
+          .select__item.select__item_black#select__item Балашиха
+          .select__item.select__item_black#select__item Балашиха
+      button.btn.btn-warning.btn-search(type="submit") Найти

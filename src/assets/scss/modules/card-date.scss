@@ -1,0 +1,80 @@
+.card-horizontal {
+  padding: 15px;
+}
+
+.card-date-route {
+  position: relative;
+}
+
+.type-date-route {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.gutter-right-55 {
+  margin-right: $gutter-55;
+}
+
+.gutter-right-50 {
+  margin-right: 50px;
+}
+
+.padding-top-5 {
+  padding-top: 5px;
+}
+
+.sharing-link_square {
+  width: 24px;
+  height: 24px;
+}
+
+.card-sharing__block_square {
+  top: -5px;
+  right: 20px;
+  width: 24px;
+}
+
+.service-description {
+  width: 450px;
+  font-size: 16px;
+  line-height: 19px;
+  // margin-bottom: 10px;
+}
+
+.third-line {
+  display: flex;
+}
+
+.third-line_feedback-only {
+  justify-content: flex-end;
+}
+
+.feedback-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 279px;
+  margin-right: 7px;
+}
+
+.btn-white {
+  width: 109px;
+  height: 30px;
+  border: 1px solid $black;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 15px;
+  vertical-align: middle;
+}
+
+.btn-white:hover {
+  background-color: $black;
+  color: $white;
+}
+
+.btn-horizontal-card_show-phone {
+  width: 155px;
+  height: 30px;
+  font-size: 13px;
+  line-height: 15px;
+  vertical-align: middle;
+}

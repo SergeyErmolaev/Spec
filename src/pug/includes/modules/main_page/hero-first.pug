@@ -1,0 +1,29 @@
+section.hero-first
+  .container.container-relative
+    .row.hero-first-center
+      .col-8
+        h2.h2.hero-first_header Аренда спецтехники <br> для любых задач <span>по всей России</span>
+        .customer-executor-choose
+          .customer
+            p Вы заказчик?
+            button.btn.btn-warning#btn-customer Оставить заявку
+          .executor
+            p Ищете клиентов?
+            button.btn.btn-middle.btn-middle-white#btn-executor Добавить объявление
+      .col-4
+        .available-technique
+          .available-technique_count.flex-row-reverse
+            b 3 456
+          .available-technique_description.flex-row-reverse
+            small Всего техники
+        .available-technique
+          .available-technique_count.flex-row-reverse
+            b 642
+          .available-technique_description.flex-row-reverse
+            small Техники онлайн
+        .available-technique
+          .available-technique_count.flex-row-reverse
+            b 139
+          .available-technique_description.flex-row-reverse
+            small Заявок
+    include ./form-hero-first.pug

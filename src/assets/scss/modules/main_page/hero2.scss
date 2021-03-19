@@ -1,0 +1,28 @@
+.hero-second {
+  padding-top: 67.5px;
+  padding-bottom: 66.5px;
+  margin-bottom: 100px;
+  background-image: url('../../assets/img/main_page/hero2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+// .hero-second__body {
+//   height: 107px;
+//   padding-bottom: 30px;
+// }
+
+.hero-second__header {
+  max-width: 530px;
+  margin: 0;
+  font-weight: bold;
+  color: $white;
+}
+
+.hero-second__para {
+  height: 28px;
+  font-size: 1.5rem;
+  color: $white;
+  margin-bottom: 33px;
+}

@@ -1,0 +1,64 @@
+mixin item(title, descr)
+  .item
+    h2.item-title=title
+    p.item-descr=descr
+
+mixin palette-dark(opacity, description)
+  .palette
+    div(class='palette__item palette__dark-shade-' + opacity)
+    .palette__color-description
+      p.palette__color-description_font-position.font-bold= description
+      p.font-uppercase= '#1f2041'
+
+mixin palette-color(color, description, identification)    
+  .palette
+    div(class='palette__item palette__' + color)
+    .palette__color-description
+      p.palette__color-description_font-position.font-bold= description
+      p.font-uppercase= identification
+
+//- mixin fonts-type(item, definition, description)
+//-   .font-classification-block.row.row-col-2
+//-     div(class='font-item font-uppercase col-sm-auto ' + definition)= item
+//-     div(class='font-description col ' + definition)= description
+
+//- Form elemets
+
+mixin input(textFieldName, IdName, placeHolder)
+  input(class=textFieldName + "__input" id = IdName placeholder = placeHolder)
+
+mixin text-field(options)
+  -
+    var textFieldName= "text-field"
+    textFieldName += options.isHover ? " hover" : ""
+    var IdName = options.IdName
+    var placeHolder = options.placeHolder
+  div(class= textFieldName)
+    label(class= textFieldName + "__label" for = IdName) text field
+    .text-field__description= options.fieldDescription
+    +input(textFieldName, IdName, placeHolder)
+
+mixin dropdown-field(options)
+  -
+    var textFieldName= "dropdown-field"
+    var IdName = options.IdName
+    var placeHolder = options.placeHolder
+  div(class= textFieldName)
+    label(class= textFieldName + "__label" for = IdName) dropdown
+    .text-field__description= options.fieldDescription
+    select(class=textFieldName + "__input" id = IdName placeholder = placeHolder)
+      option Сколько гостей
+      option Взрослые
+      option Дети
+      option Младенцы
+      
+mixin date-field(options)
+  -
+    var textFieldName= "data-field"
+    textFieldName += options.isHover ? " hover" : ""
+    var IdName = options.IdName
+    var placeHolder = options.placeHolder
+  div(class= textFieldName)
+    label(class= textFieldName + "__label" for = IdName) masked text field
+    .text-field__description= options.fieldDescription
+    input(class=textFieldName + "__input" id = IdName type="date")

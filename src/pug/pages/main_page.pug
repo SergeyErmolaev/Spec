@@ -1,0 +1,23 @@
+include ../utils/mixins
+block variables
+  -var title = 'Главная';
+
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title #{title}
+
+body
+  include ../includes/modules/UI_Kit/header_kit.pug
+  include ../includes/modules/main_page/entrance-form.pug
+  block content
+    include ../includes/modules/main_page/hero-first.pug
+    include ../includes/modules/main_page/bulletin_board.pug
+    include ../includes/modules/main_page/hero-second.pug
+    //- include ../includes/modules/main_page/slider.pug
+    include ../includes/modules/main_page/slider-slick.pug
+    include ../includes/modules/main_page/appBlock.pug
+
+  include ../includes/modules/UI_Kit/footer.pug

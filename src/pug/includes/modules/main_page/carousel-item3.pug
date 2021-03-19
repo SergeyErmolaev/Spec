@@ -1,0 +1,45 @@
+section.card-product
+  .card-sharing__block.card-sharing__block_circle
+    a(href="#").sharing-link.sharing-link_plain-star.sharing-link_circle
+    a(href="#").sharing-link.sharing-link_plain-share.sharing-link_circle
+  .carousel.slide#carouselItems3(data-ride="carousel")
+        ol.carousel-indicators.carousel-indicators_mobile
+          li.active.carousel-indicator_mobile(data-target="#carouselItems3" data-slide-to="0")
+          li.carousel-indicator_mobile(data-target="#carouselItems3" data-slide-to="1")
+          li.carousel-indicator_mobile(data-target="#carouselItems3" data-slide-to="2")
+          li.carousel-indicator_mobile(data-target="#carouselItems3" data-slide-to="3")
+        .carousel-inner.carousel-inner_height
+          .carousel-item.active
+            img.d-block.w-100(src="../../assets/img/technics/carousel/image_mobile_48.jpg" alt="экскаватор погрузчик")
+          .carousel-item
+            img.d-block.w-100(src="../../assets/img/technics/carousel/image_mobile_49.jpg" alt="погрузчик")
+          .carousel-item
+            img.d-block.w-100(src="../../assets/img/technics/carousel/image_mobile_50.jpg" alt="экскаватор")
+          .carousel-item
+            img.d-block.w-100(src="../../assets/img/technics/carousel/image_mobile_61.jpg" alt="трактор")
+  .container.card-product__container
+    .rent-card__info.rent-card__info_margin-bottom.typo_size-4
+      p.rent-card__info_declaration Аренда экскаватор-погрузчика 
+        span.rent-card__info_brand jcb 3cx super
+    .rating__block.rating__block_mobile-margin
+      .rent-card__rating(data-total-value="4")
+        .rating__item(data-item-value="5") &#9733;
+        .rating__item(data-item-value="4") &#9733;
+        .rating__item(data-item-value="3") &#9733;
+        .rating__item(data-item-value="2") &#9733;
+        .rating__item(data-item-value="1") &#9733;
+      span.rating__reviews 2 отзыва
+    .rent-card__price-and-seat
+      .rent-card__price
+        .rent-card__price_pin
+          img(src="../../assets/img/sprites/Finance/Monthly_Salary.png", alt="")
+        .price-description__block
+          .price-description__block_price от 12 000 &#8381; / смена
+          .price-description__block_tax работает с 
+            span ндс
+      .rent-card__seat
+        .rent-card__seat_pin
+          a(href="#").rent-card__seat_link
+            <img class="img-map-pin" src="../../assets/img/sprites/Navigations/map-pin-red.png" alt="map-pin">
+            .seat-description__block Россия, г. Москва, Семёновский переулок, 4
+    button(type="button").show-phone__btn.btn.btn-warning.typo_size-5_1 Показать телефон

@@ -1,0 +1,218 @@
+/* Mixins:
+   ========================================================================== */
+
+// px to rem
+@function rem($pixels, $context: $mainFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return $pixels / $context * 1rem;
+}
+
+// size to one line
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// placeholder helper
+@mixin placeholder {
+  ::-webkit-input-placeholder {
+    @content;
+  }
+  :-moz-placeholder {
+    @content;
+  }
+  ::-moz-placeholder {
+    @content;
+  }
+  :-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin H1LightUp {
+  font: {
+    family: 'Montserrat';
+    size: 24px;
+  }
+  font-style: normal;
+  font-weight: normal;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: $DrSh25;
+}
+
+@mixin H2LightUp {
+  font: {
+    family: 'Montserrat';
+    size: 19px;
+  }
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: $DrSh25;
+}
+
+@mixin H3LightUp {
+  font: {
+    family: 'Montserrat';
+    size: 12px;
+  }
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $DrSh25;
+}
+
+@mixin BodylightDrSh25 {
+  font: {
+    family: 'Montserrat';
+    size: 14px;
+  }
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: $DrSh25;
+}
+
+@mixin BodylightDrSh75 {
+  font: {
+    family: 'Montserrat';
+    size: 14px;
+  }
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  color: $DrSh75;
+}
+
+@mixin H1Bold {
+  font: {
+    family: 'Quicksand';
+    size: 24px;
+  }
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+@mixin H2Bold {
+  font: {
+    family: 'Quicksand';
+    size: 19px;
+  }
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+@mixin H3BoldUp {
+  font: {
+    family: 'Montserrat';
+    size: 12px;
+  }
+  font-style: normal;
+  font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+
+
+/* Fonts Helpers:
+   Read more: https://github.com/vedees/webpack-template/blob/master/README.md#add-fonts
+   ========================================================================== */
+
+/*
+  By default template support only modern format fonts
+  Without svg. Only: .woff, .woffs
+  if ypu need svg comments lines bellow and uncomments "Fonts helper all format fonts"
+
+  Usage:
+    1. Put your font to `src/assets/fonts/FOLDERNAME/FONTNAME`
+      FOLLOW: Files Required
+      Example: .woff, .woffs formats
+    2. Go to fonts.scss
+    3. Use mixon
+      Example: @include font-face("OpenSans", "../fonts/OpenSans/opensans");
+
+    Required parameters: @family, @family
+    Minor parameters: @weight, @style, @pipeline
+
+    Example Base:
+      @include font-face("OpenSans", "../fonts/OpenSans/opensans");
+    Example Situation:
+      @include font-face("OpenSans", "../fonts/OpenSans/opensansItalic", 400, italic);
+*/
+
+// Default: For modern format fonts
+// Files Required: .woff, .woffs
+
+// @mixin font-face(
+//   $font-family,
+//   $file-path,
+//   $weight: normal,
+//   $style: normal,
+//   $asset-pipeline: false
+// ) {
+//   @font-face {
+//     font-family: $font-family;
+//     font-weight: $weight;
+//     font-style: $style;
+//
+//     src: url("#{$file-path}.woff") format("woff"),
+//       url("#{$file-path}.woff2") format("woff2");
+//   }
+// }
+
+// For Modern format fonts + .svg
+// Files Required: .woff, .woffs, .svg
+
+
+// @mixin font-face(
+//   $font-family,
+//   $file-path,
+//   $weight: normal,
+//   $style: normal,
+//   $asset-pipeline: false
+// ) {
+//   @font-face {
+//     font-family: $font-family;
+//     font-weight: $weight;
+//     font-style: $style;
+
+//     src: url("#{$file-path}.eot?#iefix") format("embedded-opentype"),
+//       url("#{$file-path}.woff") format("woff"),
+//       url("#{$file-path}.woff2") format("woff2"),
+//       url("#{$file-path}.svg") format("svg"),
+//       url("#{$file-path}.ttf") format("truetype");
+//   }
+// }
+
+// For Modern format fonts + .svg
+// Files Required: eot. .woff, .woffs, .svg, .ttf
+
+// @mixin font-face(
+//   $font-family,
+//   $file-path,
+//   $weight: normal,
+//   $style: normal,
+//   $asset-pipeline: false
+// ) {
+//   @font-face {
+//     font-family: $font-family;
+//     font-weight: $weight;
+//     font-style: $style;
+//     src: url("#{$file-path}.eot?#iefix") format("embedded-opentype"),
+//       url("#{$file-path}.woff") format("woff"),
+//       url("#{$file-path}.woff2") format("woff2"),
+//       url("#{$file-path}.svg") format("svg"),
+//       url("#{$file-path}.ttf") format("truetype");
+//   }
+// }

@@ -1,0 +1,41 @@
+.container
+  .card
+    .row.p-3
+      .col-auto
+        .firm-im-wp
+          img(src="../../assets/img/logo-firms/remprofil.png", alt="")
+      .col
+        .card-body
+          .card-sharing__block.card-sharing__block_square.card-sharing__block_firm
+              a(href="#").sharing-link.sharing-link_plain-star.sharing-link_square
+              a(href="#").sharing-link.sharing-link_plain-share.sharing-link_square
+          .first-line.first-line_flex
+            .rent-card-horizontal
+              h5.h5.card-title.font-weight-bold.text-primary.card-firm-header_margin ООО &laquo;МетПромСоюз&raquo;
+              .rating__block
+                .rent-card__rating(data-total-value="4")
+                  .rating__item(data-item-value="5") &#9733;
+                  .rating__item(data-item-value="4") &#9733;
+                  .rating__item(data-item-value="3") &#9733;
+                  .rating__item(data-item-value="2") &#9733;
+                  .rating__item(data-item-value="1") &#9733;
+                small.small.rating__text 12 отзывов
+            .rent-card__price-select
+              .item-card__cost-information
+                .btn-group
+                  button.btn.box-shadow_none.btn_padding-right-none.typo_dropdown-menu-rent(type="button") от 12 000 &#8381; / смена
+                  button.btn.box-shadow_none.dropdown-toggle.dropdown-toggle__circle-arrow_padding-left.dropdown-toggle-split.sr-only_circle-arrow(type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+                    //- span.sr-only.sr-only_circle-arrow
+                  .dropdown-menu.dropdown-menu_position-left
+                    a.dropdown-item(href="/") от 1 500 &#8381; / час
+                    a.dropdown-item(href="/") от 32 000 &#8381; / месяц
+                .isPayTax Работает с НДС, без НДС
+          .second-line
+            .pin__block.pt-3.mb-0
+                .pin__block_img
+                  img(src="../../assets/img/sprites/Navigations/map-pin-red.png", alt="map-pin")
+                p.pin__block_text г. Москва, Семеновский переулок, 4
+          .third-line.card-firm__feedback-place
+            .feedback-buttons.pt-1
+              button.btn.btn-white Написать
+              button.btn.btn-warning.btn-horizontal-card_show-phone Показать телефон

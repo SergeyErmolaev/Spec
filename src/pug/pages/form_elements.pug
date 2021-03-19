@@ -1,0 +1,26 @@
+extends ../layout/UIkit
+
+block variables
+  -var title = 'Form Elements'
+
+block content
+  .container
+    .block-first
+      section
+        +text-field({IdName: "email", placeHolder: "Email", fieldDescription: "default"})
+        +text-field({IdName: "hover-email", placeHolder: "This is pretty awsome", fieldDescription: "hover/focus", isHover: true})
+        +dropdown-field({IdName: "dropdown-default", placeHolder: "Сколько гостей", fieldDescription: "default"})
+        +date-field({IdName: "data-field", fieldDescription: "default"})
+      section
+      section
+    .block-second
+      section
+      section
+      section
+    .block-third
+      section
+      section
+      section
+    .block-fourth
+      section
+      section
