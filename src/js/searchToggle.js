@@ -8,6 +8,9 @@
 // })();
 
 const searchToggle = (function() {
+  if (!document.querySelector('#technicsSearch')) {
+    return;
+  }
   const search = document.querySelector('#technicsSearch');
   const techSearchInput = document.querySelector('#techSearchInput');
 

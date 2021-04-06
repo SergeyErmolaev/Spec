@@ -26,16 +26,16 @@
 .carousel-control-next-icon, .slick-next {
   width: 23px;
   height: 16px;
-  background-image: url(../../assets/img/main_page/arrow.png);
+  // background-image: url(../../assets/img/main_page/arrow.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-.carousel-control-prev-icon, .slick-prev {
+.slick-prev {
   width: 23px;
   height: 16px;
-  background-image: url(../../assets/img/main_page/arrow-left.png);
+  // background-image: url(../../assets/img/main_page/arrow-left.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

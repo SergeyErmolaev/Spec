@@ -31,13 +31,13 @@
 }
 
 .sharing-link_plain-star {
-  background-image: url(../../assets/img/sharing/star-white.png);
+  // background-image: url('../../assets/img/sharing/star-white.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .sharing-link_plain-star:hover {
-  background-image: url(../../assets/img/sharing/star-white.png);
+  // background-image: url(../../assets/img/sharing/star-white.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: $black;
@@ -51,7 +51,7 @@
 }
 
 .sharing-link_hover-star {
-  background-image: url(../../assets/img/sharing/star-white.png);
+  background-image: url('../../assets/img/sharing/star-white.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: $black;
@@ -64,13 +64,13 @@
 }
 
 .sharing-link_plain-share {
-  background-image: url(../../assets/img/sharing/share-black.png);
+  // background-image: url(../../assets/img/sharing/share-black.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .sharing-link_plain-share:hover {
-  background-image: url(../../assets/img/sharing/share-white.png);
+  // background-image: url('../../assets/img/sharing/share-white.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-color: $black;
